@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.6.1-rc1//EN"
+  "http://google-web-toolkit.googlecode.com/svn/tags/2.6.1-rc1/distro-source/core/src/gwt-module.dtd">
+<module rename-to='gwtgeoregression'>
+  <inherits name='com.google.gwt.user.User'/>
+
+  <inherits name='georegression.GEOREGRESSION'/>
+  <inherits name='com.jooink.gwtejml.gwtEJML_lib'/>
+  <inherits name='com.jooink.gwtddogleg.gwtDDogLeg_lib'/>
+  
+  <source path='client'/>
+  <source path='shared'/>
+
+  <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+</module>
